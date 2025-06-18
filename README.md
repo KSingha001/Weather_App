@@ -1,12 +1,49 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based weather application that provides real-time weather information for cities worldwide. The app features a clean, responsive interface built with Material-UI components and integrates with the OpenWeatherMap API for accurate weather data.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Weather App is a single-page application (SPA) that allows users to search for weather information by city name. It displays comprehensive weather details including temperature, humidity, and weather conditions with dynamic visual elements.
 
-## Expanding the ESLint configuration
+### Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Real-time weather data fetching
+- Responsive Material-UI interface
+- Dynamic weather icons and backgrounds
+- Error handling for invalid city searches
+- Clean, modern design with dark/light theme support
+
+## Technology Stack
+
+### Frontend Framework
+- **React 19.1.0** - Modern JavaScript library for building user interfaces
+- **Vite** - Fast build tool and development server
+
+### UI Components & Styling
+- **Material-UI (MUI) 7.1.1** - React component library
+- **MUI Icons Material** - Icon components
+- **Emotion** - CSS-in-JS styling solution
+- **Roboto Font** - Google's Roboto font family
+
+### API Integration
+- **OpenWeatherMap API** - Weather data provider
+
+### Development Tools
+- **ESLint** - Code linting and quality enforcement
+- **TypeScript Types** - Type definitions for React
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+- OpenWeatherMap API key (the current key in the code may have usage limits)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KSingha001/Weather_App.git
+   cd Weather_App
